@@ -1,0 +1,53 @@
+
+########################################################################
+#      Date:           Sun Jan 30 03:10:51 PST 2022
+#    Job ID:           336890.v-qsvr-1.devcloud-edge
+#      User:           u122592
+# Resources:           neednodes=1:idc018,nodes=1:idc018,walltime=00:10:00
+########################################################################
+
+[setupvars.sh] OpenVINO environment initialized
+[ INFO ] Initializing plugin for CPU device...
+[ INFO ] Reading IR...
+[ INFO ] Loading IR to the plugin...
+[ INFO ] Starting preprocessing...
+Create progress tracker
+[ INFO ] Starting inference in async mode, 2 requests in parallel...
+[ INFO ] Processing done...
+in send app metrics writer
+CPU
+in send app metrics writer
+CPU
+input_data=results/xeon_cascade_lake/output_336890.v-qsvr-1.devcloud-edge.txt
+progress_data=results/xeon_cascade_lake/post_progress_336890.v-qsvr-1.devcloud-edge.txt
+output_stream=results/xeon_cascade_lake/output_336890.v-qsvr-1.devcloud-edge.mp4
+args.scale_frame_rate=1.0
+args.scale_resolution=0.5
+Create progress tracker
+Post processing time: 24.992515087127686 sec
+
+########################################################################
+# End of output for job 336890.v-qsvr-1.devcloud-edge
+# Date: Sun Jan 30 03:11:37 PST 2022
+########################################################################
+
+sys.argv[0]=[/etc/collectd/telemetrySender.py]
+sys.argv[1]=[u122592]
+sys.argv[2]=[336890.v-qsvr-1.devcloud-edge]
+sys.argv[3]=[47]
+sys.argv[4]=[1643541051]
+sys.argv[5]=[1643541098]
+sys.argv[6]=[idc018_compnode_openvino-latest_intel-xeon_gold6258r_no-gpu_ram96gb]
+USER_ID=[u122592]
+JOB_ID=[336890]
+JOB_RUNTIME=[47]
+FROM_TIME=[1643541051]
+TO_TIME=[1643541098]
+HOST_TYPE=[idc018_compnode_openvino-latest_intel-xeon_gold6258r_no-gpu_ram96gb]
+EDGE_NAME=[s018-n001]
+PBS_O_WORKDIR=[/home/u122592/Reference-samples/iot-devcloud/openvino-dev-latest/developer-samples/python/safety-gear-detection-python]
+APPLICATION_NAME=[safety-gear-detection-python]
+INTEL_SKU=[xeon-gold6258r]
+existing sample
+cpu data info  3584
+InfluxDBClient.write_points(metric_list) result_success:[True]

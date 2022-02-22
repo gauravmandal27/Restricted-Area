@@ -1,0 +1,4 @@
+/usr/local/lib/python3.6/dist-packages/pkg_resources/__init__.py:119: PkgResourcesDeprecationWarning: 0.18ubuntu0.18.04.1 is an invalid version and will not be supported in a future release
+  PkgResourcesDeprecationWarning,
+/usr/local/lib/python3.6/dist-packages/pkg_resources/_vendor/packaging/version.py:114: DeprecationWarning: Creating a LegacyVersion has been deprecated and will be removed in the next major release
+  DeprecationWarning,

@@ -1,0 +1,53 @@
+
+########################################################################
+#      Date:           Sun Jan 30 03:09:30 PST 2022
+#    Job ID:           336889.v-qsvr-1.devcloud-edge
+#      User:           u122592
+# Resources:           neednodes=1:idc001skl,nodes=1:idc001skl,walltime=00:10:00
+########################################################################
+
+[setupvars.sh] OpenVINO environment initialized
+[ INFO ] Initializing plugin for CPU device...
+[ INFO ] Reading IR...
+[ INFO ] Loading IR to the plugin...
+[ INFO ] Starting preprocessing...
+Create progress tracker
+[ INFO ] Starting inference in async mode, 2 requests in parallel...
+[ INFO ] Processing done...
+in send app metrics writer
+CPU
+in send app metrics writer
+CPU
+input_data=results/core/output_336889.v-qsvr-1.devcloud-edge.txt
+progress_data=results/core/post_progress_336889.v-qsvr-1.devcloud-edge.txt
+output_stream=results/core/output_336889.v-qsvr-1.devcloud-edge.mp4
+args.scale_frame_rate=1.0
+args.scale_resolution=0.5
+Create progress tracker
+Post processing time: 23.59048557281494 sec
+
+########################################################################
+# End of output for job 336889.v-qsvr-1.devcloud-edge
+# Date: Sun Jan 30 03:10:41 PST 2022
+########################################################################
+
+sys.argv[0]=[/etc/collectd/telemetrySender.py]
+sys.argv[1]=[u122592]
+sys.argv[2]=[336889.v-qsvr-1.devcloud-edge]
+sys.argv[3]=[70]
+sys.argv[4]=[1643540971]
+sys.argv[5]=[1643541041]
+sys.argv[6]=[idc001skl_compnode_openvino-latest_intel-core_i5-6500te_intel-hd-530_ram8gb]
+USER_ID=[u122592]
+JOB_ID=[336889]
+JOB_RUNTIME=[70]
+FROM_TIME=[1643540971]
+TO_TIME=[1643541041]
+HOST_TYPE=[idc001skl_compnode_openvino-latest_intel-core_i5-6500te_intel-hd-530_ram8gb]
+EDGE_NAME=[s001-n001]
+PBS_O_WORKDIR=[/home/u122592/Reference-samples/iot-devcloud/openvino-dev-latest/developer-samples/python/safety-gear-detection-python]
+APPLICATION_NAME=[safety-gear-detection-python]
+INTEL_SKU=[core-i5]
+existing sample
+cpu data info  384
+InfluxDBClient.write_points(metric_list) result_success:[True]
